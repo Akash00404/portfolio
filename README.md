@@ -3,7 +3,7 @@
 
 Welcome to my personal developer portfolio! This website showcases my skills, projects, certifications, and contact information, all built using modern web technologies.
 
-## � Overview
+##  Overview
 
 This is a responsive and interactive portfolio website developed to highlight:
 - My background as a Computer Science and Engineering student.
