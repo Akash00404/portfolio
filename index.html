@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akash R | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">Akash R</h1>
+    <ul class="nav-links">
+  <li><a href="#about">About</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#certificates">Certificates</a></li>
+ 
+  <li><a href="https://www.linkedin.com/in/akaaash04" target="_blank">LinkedIn</a></li>
+  <li><a href="https://github.com/akaaash04" target="_blank">GitHub</a></li>
+  <li><a href="resume.pdf" target="_blank">Resume</a></li>
+</ul>
+    <div class="toggle-theme" onclick="toggleTheme()">
+      <span id="theme-text">Switch to Dark Mode</span>
+    </div>
+  </nav>
+
+  <header class="hero section fade-in">
+    <h2>Hi, I'm <span>Akash</span></h2>
+    <p>Web Developer & Prompt Engineer | B.Tech @ Presidency University</p>
+    <a href="#contact" class="btn pulse">Contact Me</a>
+  </header>
+
+  <section id="about" class="section fade-in">
+    <h2>About Me</h2>
+    <p>
+
+        I am a Computer Science and Engineering student at Presidency University, Bengaluru, with a strong passion for web development and prompt engineering.
+        I have hands-on experience with front-end and back-end technologies like React JS, Node JS, Angular JS, Java, and Python.
+        My academic foundation includes data structures, algorithms, and database management systems. I am eager to learn continuously and contribute effectively in dynamic, technology-driven environments.
+        I enjoy collaborating with peers to solve complex challenges and believe in lifelong learning to stay ahead in tech. My adaptability and communication skills help me thrive in diverse and fast-paced teams.
+        
+        </p>
+  </section>
+
+  <section id="skills" class="section fade-in">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill"><label>Python</label><div class="bar"><div class="fill" data-width="90%"></div></div></div>
+        <div class="skill"><label>Java</label><div class="bar"><div class="fill" data-width="90%"></div></div></div>
+      <div class="skill"><label>HTML</label><div class="bar"><div class="fill" data-width="90%"></div></div></div>
+      <div class="skill"><label>CSS</label><div class="bar"><div class="fill" data-width="85%"></div></div></div>
+      <div class="skill"><label>JavaScript</label><div class="bar"><div class="fill" data-width="80%"></div></div></div>
+      <div class="skill"><label>React</label><div class="bar"><div class="fill" data-width="75%"></div></div></div>
+      <div class="skill"><label>Node.js</label><div class="bar"><div class="fill" data-width="70%"></div></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section fade-in">
+    <h2>Projects</h2>
+    <div class="projects">
+      
+      <div class="card tilt" onclick="showDetails('dispenser')">
+        <h3>Automatic Water Dispenser</h3>
+        <p>Arduino-based contactless bottle filling system with ultrasonic sensor and conveyor mechanism.</p>
+      </div>
+      <div class="card tilt" onclick="showDetails('robot')">
+        <h3>Raspberry Pi Surveillance Bot</h3>
+        <p>Live video stream and remote-controlled movement via mobile or web interface.</p>
+      </div>
+      <div class="card tilt" onclick="showDetails('itinerary')">
+        <h3>Itinerary Planner</h3>
+        <p>Travel scheduling application using JavaScript for dynamic trip planning and management.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+<section id="certificates" class="section fade-in">
+  <h2>Certification Domains</h2>
+  <div class="cert-grid">
+    <div class="cert-card">Python Programming</div>
+    <div class="cert-card">Java Programming</div>
+    <div class="cert-card">Front-End & Full Stack</div>
+    <div class="cert-card">Data Handling & Visualization</div>
+    <div class="cert-card">Data Structures & Algorithms</div>
+  </div>
+</section>
+
+<section id="contact" class="section fade-in">
+  <div class="contact-container">
+    <h2>Contact</h2>
+    <p class="contact-email">📧 <a href="mailto:akaaash04@gmail.com">akaaash04@gmail.com</a></p>
+    <div class="social-icons center">
+      <a href="https://www.linkedin.com/in/akaaash04" target="_blank" aria-label="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="28">
+      </a>
+      <a href="https://github.com/akaaash04" target="_blank" aria-label="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="28">
+      </a>
+    </div>
+  </div>
+</section>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="hideModal()">&times;</span>
+      <div id="modalText"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
