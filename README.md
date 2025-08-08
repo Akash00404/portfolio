@@ -42,8 +42,5 @@ I’m Akash R, a B.Tech CSE student at Presidency University, Bengaluru. I speci
 - 💼 [LinkedIn](https://www.linkedin.com/in/akaaash04)
 - 💻 [GitHub](https://github.com/akaaash04)
 
-## 📜 License
-
-This project is open source and free to use. Attribution appreciated!
 
 ---
