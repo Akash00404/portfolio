@@ -29,16 +29,8 @@ This is a responsive and interactive portfolio website developed to highlight:
 - 🏆 **Certifications** presented in card layout
 - 🎯 **Animated Skill Bars** reflecting proficiency levels
 
-## 📁 File Structure
 
-├── index.html # Main HTML structure
-├── style.css # Theming and layout styles
-├── script.js # Theme toggle and modal logic
-├── resume.pdf # Downloadable resume
 
-## 📸 Preview
-
-Hosted Version: _Coming Soon or [Deploy it with GitHub Pages, Vercel, Netlify, etc.]_
 
 ## 👨‍💻 About Me
 
